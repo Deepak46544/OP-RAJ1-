@@ -252,9 +252,9 @@ def handle_message(message):
             response = "*No account information found. Please contact the administrator.@raj14754*"
         bot.reply_to(message, response, parse_mode='Markdown')
     elif message.text == "Help❓":
-        bot.reply_to(message, "*Help selected@raj14754*", parse_mode='Markdown')
+        bot.reply_to(message, "*Help selected @raj14754*", parse_mode='Markdown')
     elif message.text == "Contact admin✔️":
-        bot.reply_to(message, "*Contact admin selected@raj14754*", parse_mode='Markdown')
+        bot.reply_to(message, "*Contact admin selected @raj14754*", parse_mode='Markdown')
     else:
         bot.reply_to(message, "*Invalid option*", parse_mode='Markdown')
 
