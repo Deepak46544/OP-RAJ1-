@@ -156,7 +156,7 @@ def attack_command(message):
             return
 
         if user_data['plan'] == 2 and users_collection.count_documents({"plan": 2}) > 499:
-            bot.send_message(chat_id, "Your Instant++ Plan 💥 is currently not available due to limit reached@raj14754.")
+            bot.send_message(chat_id, "Your Instant++ Plan 💥 is currently not available due to limit reached.@raj14754")
             return
 
         bot.send_message(chat_id, "Enter the target IP, port, and duration (in seconds) separated by spaces.@raj14754")
